@@ -1,10 +1,14 @@
 body{
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 80%;
     text-align: center;
-    background-color: lightgray;
+    background-color: darkgrey;
     /* background: url(img/backGround.png) no-repeat center center fixed;
     background-size: cover; */
+}
+
+footer{
+    justify-content: space-between;
 }
 
 p{
@@ -14,6 +18,26 @@ p{
 
 table{
     border-spacing: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .imgPilotos{
+
+} */
+
+.boxPilotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
 }
 
 .hrPrincipal{
@@ -40,11 +64,12 @@ table{
 .imagemCabecalho {
     width: 100%;
     max-width: 500px;
-    min-width: 250px;
+    min-width: 400px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
 
 .imagemCorpo {
     width: 100%;
