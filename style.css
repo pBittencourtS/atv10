@@ -7,6 +7,10 @@ body{
     background-size: cover; */
 }
 
+h2{
+    text-align: left;
+}
+
 footer{
     justify-content: space-between;
 }
@@ -24,10 +28,6 @@ a{
     text-decoration: none;
 }
 
-/* .imgPilotos{
-
-} */
-
 .boxPilotos{
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,7 @@ a{
     margin: 10px auto;
 }
 .content{
+    visibility: hidden;
     background-color: lightgrey;
     border-radius: 15px;
     padding: 10px;
@@ -80,4 +81,33 @@ a{
     display: block;
     margin-left: 15px;
     border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#logoUtfpr{
+    opacity: 0.5;
+}
+
+#carroFerrari {
+    border: 3px solid red;
+}
+
+#carroMercedes {
+    border: 3px solid #00F5D0;
+}
+
+#carroRedBull {
+    border: 3px solid #00386d;
+}
+
+#carroMcLaren {
+    border: 3px solid #FF8000;
+}
+
+#carroAstonMartin {
+    border: 3px solid #00665F;
+}
+
+#carroWilliams {
+    border: 3px solid #3978DF;
 }
