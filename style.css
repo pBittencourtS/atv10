@@ -79,4 +79,5 @@ a{
     min-width: 150px;
     display: block;
     margin-left: 15px;
+    border-radius: 5px;
 }
